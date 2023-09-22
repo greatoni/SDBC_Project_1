@@ -1,3 +1,21 @@
 body {
     background-color: darkslategray;
 }
+
+header {
+    margin: 1rem;
+    width: 25rem;
+    display: block;
+    padding: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aqua;
+}
+
+nav {
+    margin: auto;
+    width: 15rem;
+    display: block;
+    padding: 1rem;
+    background-color: royalblue;
+}
+
