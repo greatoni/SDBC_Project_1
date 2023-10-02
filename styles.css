@@ -12,10 +12,51 @@ header {
 }
 
 nav {
+    overflow: hidden;
     margin: auto;
-    width: 15rem;
+    position: fixed;
+    width: 100%;
     display: block;
     padding: 1rem;
-    background-color: royalblue;
+    background-color: black;
+    color: white;
 }
 
+.Post
+{
+    display: flex;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    background-color: lightcyan;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.Project
+{
+    display: flex;
+    flex-direction: column;
+    background-color: lightcyan;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.Blog
+{
+    margin: auto;
+    display:flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color:darkblue;
+    width: 95%;
+}
+
+.HOLDER
+{
+    margin: auto;
+    width: 90%;
+    background-color: darkblue;
+    border-radius: 10px;
+}
