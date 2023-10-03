@@ -5,29 +5,55 @@ body {
 header {
     margin: 1rem;
     width: 25rem;
+    text-align: center;
     display: block;
     padding: 1rem;
+    border-radius: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: aqua;
 }
-
+/* NAVBAR */
 nav {
     overflow: hidden;
     margin: auto;
     position: fixed;
+    top: 0;
     width: 100%;
     display: block;
-    padding: 1rem;
     background-color: black;
-    color: white;
 }
 
+nav a 
+{
+    display: block;
+    padding: 15px, 16px;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+nav a:hover 
+{
+    background-color: darkgrey;
+    color: black;
+}
+
+/* CONTENT HOLDERS */
 .HOLDER
 {
     margin: auto;
     width: 90%;
     background-color: darkblue;
     border-radius: 10px;
+}
+
+/* POSTS */
+.HOLDER h1
+{
+    width: 100%;
+    border-radius: 10px;
+    background-color: aqua;
+    display: block;
+    text-align: center;
 }
 
 .Blog
@@ -40,10 +66,10 @@ nav {
     width: 95%;
 }
 
-.Post .Project
+.Post, .Project
 {
     display: flex;
-    margin: 1rem;
+    margin: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     flex-direction: column;
