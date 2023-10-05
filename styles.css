@@ -1,9 +1,17 @@
 body {
     background-color: darkslategray;
+    margin: 0;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+
 }
 
 header {
     margin: 1rem;
+    margin-top: 4rem;
     width: 25rem;
     text-align: center;
     display: block;
@@ -15,18 +23,21 @@ header {
 /* NAVBAR */
 nav {
     overflow: hidden;
-    margin: auto;
+    margin: 0;
     position: fixed;
     top: 0;
     width: 100%;
-    display: block;
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
     background-color: black;
 }
 
 nav a 
 {
     display: block;
-    padding: 15px, 16px;
+    /* margin: 1rem; */
+    padding: 1rem;
     background-color: black;
     text-align: center;
     color: white;
@@ -41,21 +52,48 @@ nav a:hover
 .HOLDER
 {
     margin: auto;
-    width: 90%;
+    width: 95%;
     background-color: darkblue;
     border-radius: 10px;
 }
 
-/* POSTS */
-.HOLDER h1
+.HOLDER > h1
 {
     width: 100%;
     border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: aqua;
     display: block;
     text-align: center;
 }
 
+.HOLDER > h2
+{
+    width: 100%;
+    border-radius: 10px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: aqua;
+    display: block;
+    text-align: center;
+}
+
+
+.HOLDER > p
+{
+    margin:auto;
+    width: 95%;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 0rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: azure;
+    display: block;
+    text-align: center;
+}
+/* POSTS */
 .Blog
 {
     margin: auto;
@@ -66,17 +104,66 @@ nav a:hover
     width: 95%;
 }
 
-.Post, .Project
+#AboutPage
+{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.Column
+{
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:darkblue;
+    width: 95%;
+    padding: 1rem;
+}
+
+.Post
 {
     display: flex;
     margin: 0.5rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-bottom: 1rem;
     flex-direction: column;
     background-color: lightcyan;
     border-radius: 5px;
+    font-size: 20px;
+    width: 95%;
+    text-align: justify;
     height: fit-content;
 }
 
+.Project
+{
+    /* display: flex; */
+    margin: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    background-color: lightcyan;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 95%;
+    text-align: justify;
+    height: fit-content;
+}
 
+.kitten {
+    padding: 1rem;
+    float: left;
+    width: 200px;
+    height: 300px;
+}
 
+#myPortrait {
+    padding: 1rem;
+    width: 354px;
+    height: 442px;
+    border-radius: 30px;
+}
