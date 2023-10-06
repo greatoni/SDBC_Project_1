@@ -167,3 +167,18 @@ nav a:hover
     height: 442px;
     border-radius: 30px;
 }
+
+/* FooterStuff */
+
+footer{
+    padding: 1rem;
+    background-color: #02140d;
+    color: white;
+    margin-top: 2rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: underline;
+}
+
